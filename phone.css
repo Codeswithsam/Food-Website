@@ -1,0 +1,67 @@
+/* navigation bar  */
+#navbar {
+  flex-direction: column;
+
+}
+
+#navbar ul li a {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+/* home section  */
+#home {
+  padding: 35px 20px;
+}
+
+#home::before {
+  height: 650px;
+}
+
+#home p {
+  font-size: 15px;
+}
+
+/* services section  */
+#services {
+  flex-direction: column;
+}
+
+#services .box {}
+
+/* drink section  */
+#drinks {
+  flex-wrap: wrap;
+}
+
+.drinks-item {
+  margin: 30px 15px;
+  padding: 0;
+}
+
+#drinks img {
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+}
+
+/* contact us section  */
+#contact-box form {
+  width: 80%;
+}
+
+/* footer  */
+
+/* utility class */
+.h-primary {
+  font-size: 30px;
+}
+
+.p-primary {
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 4px 9px;
+}
